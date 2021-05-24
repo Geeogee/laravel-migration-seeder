@@ -20,7 +20,7 @@ class CreateMoviesTable extends Migration
             $table -> string('original_title');
             $table -> string('nationality');
             $table -> date('date');
-            $table -> decimal('vote', 2, 1);
+            $table -> decimal('vote', 3, 1);
             
             $table -> timestamps();
         });
